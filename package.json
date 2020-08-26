@@ -1,0 +1,37 @@
+{
+  "name": "potoo",
+  "version": "1.0.0",
+  "description": "a simple Node.js framework based on TypeScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yi-love/potoo.git"
+  },
+  "keywords": [
+    "potoo"
+  ],
+  "author": "Yi-love",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Yi-love/potoo/issues"
+  },
+  "homepage": "https://github.com/Yi-love/potoo#readme",
+  "devDependencies": {
+    "@types/node": "^14.6.0",
+    "@typescript-eslint/eslint-plugin": "^3.10.1",
+    "@typescript-eslint/parser": "^3.10.1",
+    "eslint": "^7.7.0",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.2"
+  },
+  "dependencies": {
+    "camelcase": "^6.0.0",
+    "glob": "^7.1.6",
+    "koa": "^2.13.0",
+    "koa-router": "^9.4.0",
+    "reflect-metadata": "^0.1.13"
+  }
+}
